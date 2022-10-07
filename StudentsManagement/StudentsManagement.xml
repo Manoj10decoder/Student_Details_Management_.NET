@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StudentsManagement</name>
+    </assembly>
+    <members>
+        <member name="M:StudentsManagement.Controllers.StudentsAddressController.GetStudentsAddress">
+            <summary>
+            Get list of students address
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StudentsManagement.Controllers.StudentsAddressController.GetStudentsAddress(System.Int32)">
+            <summary>
+            Get individual student address
+            </summary>
+            <param name="StudentAddressId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentsManagement.Controllers.StudentsAddressController.CreateStudent(StudentsManagement.Models.Dtos.CreateStudentsAddressDto)">
+            <summary>
+            Create student address
+            </summary>
+            <param name="createAddressDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentsManagement.Controllers.StudentsAddressController.UpdateStudent(System.Int32,StudentsManagement.Models.Dtos.UpdateStudentsAddressDto)">
+            <summary>
+            Update Student address by id
+            </summary>
+            <param name="StudentAddressId"></param>
+            <param name="updateAddressDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentsManagement.Controllers.StudentsAddressController.DeleteStudent(System.Int32)">
+            <summary>
+            Delete student details by id
+            </summary>
+            <param name="StudentAddressId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentsManagement.Controllers.StudentsController.GetStudents">
+            <summary>
+            Get list of students
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StudentsManagement.Controllers.StudentsController.GetStudent(System.Int32)">
+            <summary>
+            Get individual student
+            </summary>
+            <param name="studentId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentsManagement.Controllers.StudentsController.CreateStudent(StudentsManagement.Models.Dtos.CreateStudentsDto)">
+            <summary>
+            Create student
+            </summary>
+            <param name="createStudentDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentsManagement.Controllers.StudentsController.UpdateStudent(System.Int32,StudentsManagement.Models.Dtos.UpdateStudentsDto)">
+            <summary>
+            Update Student by id
+            </summary>
+            <param name="studentId"></param>
+            <param name="updateStudentDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentsManagement.Controllers.StudentsController.DeleteStudent(System.Int32)">
+            <summary>
+            Delete student by id
+            </summary>
+            <param name="studentId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentsManagement.Controllers.StudentsPersonalDetailsController.GetStudentsPersonalDetails">
+            <summary>
+            Get list of students details
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StudentsManagement.Controllers.StudentsPersonalDetailsController.GetStudentPersonalDetails(System.Int32)">
+            <summary>
+            Get individual student detail
+            </summary>
+            <param name="StudentPersonalDetailId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentsManagement.Controllers.StudentsPersonalDetailsController.CreateStudent(StudentsManagement.Models.CreateStudentsPersonalDetailsDto)">
+            <summary>
+            Create student detail
+            </summary>
+            <param name="createStudentDetailsDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentsManagement.Controllers.StudentsPersonalDetailsController.UpdateStudent(System.Int32,StudentsManagement.Models.UpdateStudentsPersonalDetailsDto)">
+            <summary>
+            Update Student detail by id
+            </summary>
+            <param name="StudentPersonalDetailId"></param>
+            <param name="updateStudentDetailsDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudentsManagement.Controllers.StudentsPersonalDetailsController.DeleteStudent(System.Int32)">
+            <summary>
+            Delete student detail by id
+            </summary>
+            <param name="StudentPersonalDetailId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
